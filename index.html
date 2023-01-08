@@ -1,0 +1,32 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>BackGround Generator</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+	<h2>Customised gradient Background generator</h2>
+
+	<!-- colors selection -->
+	<h3>Select the gradient colours below</h3>
+	<label for="color1">Select Color 1 :</label>
+	<input type="color" id="color1" name="color1" value="#ff0000">
+	<label for="color2">Select Color 2 :</label>
+	<input type="color" id="color2" name="color2" value="#00ff00">
+
+	<!-- direction selection -->
+	<h3>Select the type gradient colours</h3>
+	<label for="direction">Select Here :</label>
+	<select id="direction" name="direction" value="to right">
+		<option>Linear Gradients</option>
+		<option>Radial Gradients</option>
+		<option>Conic Gradients</option>
+	</select>
+
+	<!-- displayed CSS -->
+	<h4 id="cssInfo">CSS : linear-gradient ( to right, #ff0000, #00ff00 )</h4>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
