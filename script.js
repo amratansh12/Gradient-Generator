@@ -17,7 +17,7 @@ function colorChange(){
 		css = "conic-gradient(" + color1.value + ", " + color2.value + " )";
 	}
 	document.body.style.backgroundImage = css;
-	h4.innerText = "CSS : linear-gradient(to right, " + color1.value + ", " + color2.value + " )";
+	h4.innerText = "CSS : " + css;
 }
 
 color1.addEventListener("input", colorChange);
